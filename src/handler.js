@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import books from './books';
+import books from './books.js';
 
 const addBookHandler = (request, h) => {
   const {
